@@ -3,3 +3,4 @@ deep_learning_from_scratch
 notes/*.pkl
 .python-version
 venv
+.DS_Store
