@@ -2,5 +2,5 @@ deep_learning_from_scratch
 .ipynb_checkpoints
 notes/*.pkl
 .python-version
-venv
 .DS_Store
+framework_test/workdir

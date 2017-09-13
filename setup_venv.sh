@@ -2,7 +2,7 @@
 set -e
 
 SCRIPT_DIR=$(cd $(dirname $0);pwd)
-VENV_DIR=${SCRIPT_DIR}/venv
+VENV_DIR=${SCRIPT_DIR}/framework_test/workdir
 PY_VERSION=3.6.2
 
 if [ $# -lt 1 ]; then
