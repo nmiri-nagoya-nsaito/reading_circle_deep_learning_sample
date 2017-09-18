@@ -29,4 +29,7 @@ python3 -m venv ${TARGET_NAME}
 source ${TARGET_NAME}/bin/activate
 pip install jupyter matplotlib
 
+echo "----------"
+echo "created new virtual environment in ${VENV_DIR}/${TARGET_NAME}"
+
 exit 0
