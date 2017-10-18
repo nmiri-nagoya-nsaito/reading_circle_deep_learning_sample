@@ -1,0 +1,7 @@
+version: '2'
+services:
+  cntk-jupyter-notebooks:
+    build: cntk 
+    ports:
+     - "8888"
+    command: [ "bash", "-c", "source /cntk/activate-cntk && jupyter-notebook --no-browser --port=8888 --ip=0.0.0.0 --notebook-dir=/cntk/Tutorials --allow-root"]
