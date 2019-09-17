@@ -4,4 +4,6 @@ services:
     build: cntk 
     ports:
      - "8888"
+    volumes:
+       - ./workdir:/cntk/Tutorials/workdir
     command: [ "bash", "-c", "source /cntk/activate-cntk && jupyter-notebook --no-browser --port=8888 --ip=0.0.0.0 --notebook-dir=/cntk/Tutorials --allow-root"]
